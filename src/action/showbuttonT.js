@@ -1,4 +1,4 @@
-export var showButtonT = (layoutParams,ID,value, seconds, options ) => {
+export var ShowButtonT = (layoutParams,ID,value, seconds, options ) => {
     return {
         actionType: "ShowButton",
         uiId: ID,

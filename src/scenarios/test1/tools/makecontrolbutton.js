@@ -1,8 +1,8 @@
-import { showButtonT } from "../action/showbuttonT.js"
+import { ShowButtonT } from "../action/showbuttonT.js"
 
 export var makeControlButton = () =>{
     ActionQueue.push(ActionQueue.Priority.Normal, [
-        showButtonT(
+        ShowButtonT(
             {
             bottom:"10px", 
             right:"10px",
@@ -23,7 +23,7 @@ export var makeControlButton = () =>{
             verticalAlign: "center"
             }
         ),
-        showButtonT(
+        ShowButtonT(
             {
             bottom:"10px", 
             right:"70px",
@@ -43,7 +43,7 @@ export var makeControlButton = () =>{
                 verticalAlign: "center"
             }
         ),
-        showButtonT(
+        ShowButtonT(
             {
             bottom:"10px", 
             right:"130px",

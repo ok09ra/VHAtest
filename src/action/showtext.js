@@ -1,4 +1,4 @@
-export var showText = (layoutParams,ID,value, seconds, options ) => {
+export var ShowText = (layoutParams,ID,value, seconds, options ) => {
     return   {
         actionType: "ShowText",
         uiId: ID,
@@ -7,7 +7,7 @@ export var showText = (layoutParams,ID,value, seconds, options ) => {
         value: value,
         seconds: seconds
     }
-
+}
 //layoutParam:JSON
 // {bottom:"px", right:"px", left:"px",top:"px"}
 //options :JSON
@@ -16,5 +16,4 @@ export var showText = (layoutParams,ID,value, seconds, options ) => {
 //     fontColor: "black",
 //     visibleBackground: "false",
 //     textAlign: "right",
-//     verticalAlign: "bottom"
-//   },
+//     verticalAlign: "bottom"}
