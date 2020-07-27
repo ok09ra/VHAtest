@@ -1,6 +1,0 @@
-
-export var issues =() =>{
-    return [
-        
-    ]
-}
